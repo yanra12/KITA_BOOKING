@@ -1,0 +1,60 @@
+Materi: Siklus Hidup Pengembangan Perangkat Lunak (SDLC)
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu memahami, membandingkan, dan menerapkan berbagai model siklus hidup pengembangan perangkat lunak (SDLC) yang sesuai dengan karakteristik proyek yang dihadapi.
+
+📖 Teori
+SDLC (Software Development Life Cycle) adalah serangkaian tahapan terstruktur yang digunakan oleh pengembang perangkat lunak untuk merencanakan, mendesain, membangun, menguji, hingga memelihara sistem informasi atau aplikasi.
+
+Berikut adalah beberapa model SDLC konvensional dan modern yang sering digunakan industri:
+
+Model Air Terjun
+
+Karakteristik: Pendekatan sekuensial (berurutan) seperti air terjun. Tahap berikutnya tidak bisa dimulai sebelum tahap sebelumnya selesai.
+
+Kelebihan: Struktur jelas, dokumentasi kuat, mudah dikelola untuk proyek skala kecil dengan kebutuhan yang sudah pasti.
+
+Kekurangan: Sangat kaku, sulit mengakomodasi perubahan di tengah jalan, pengguna baru bisa melihat hasil akhir proyek.
+
+Model Prototipe
+
+Karakteristik: Berfokus pada pembuatan modul awal (prototipe) untuk diberikan kepada pengguna guna mendapatkan umpan balik dini.
+
+Kelebihan: Mengurangi risiko kesalahpahaman kebutuhan antara pengembang dan pengguna.
+
+Kekurangan: Proses bisa berputar-putar jika pengguna terus mengubah keinginan; prototipe sering kali dibangun dengan kualitas kode yang kurang optimal.
+
+Model Agile
+
+Karakteristik: Pendekatan iteratif (berulang) dan inkremental. Pengembangannya dibagi menjadi siklus-siklus kecil (disebut Sprint dalam Scrum).
+
+Kelebihan: Sangat adaptif terhadap perubahan kebutuhan, keterlibatan pengguna sangat tinggi, rilis produk bisa lebih cepat.
+
+Kekurangan: Memerlukan komitmen tim yang tinggi, dokumentasi kadang minim, rentan terhadap pembengkakan ruang lingkup (scope creep ) jika tidak dikelola dengan baik.
+
+Model Spiral
+
+Karakteristik: Kombinasi antara model linear (Waterfall) dan iteratif (Prototype) dengan fokus analisis mendalam pada risiko .
+
+Kelebihan: Sangat baik untuk proyek skala besar, kompleks, dan memiliki risiko kegagalan tinggi.
+
+Kekurangan: Biaya mahal dan membutuhkan tenaga ahli dalam manajemen risiko.
+
+RAD (Rapid Application Development) & Incremental
+
+Karakteristik: RAD tekanan pada kecepatan siklus pengembangan pendek menggunakan komponen yang dapat digunakan kembali ( reusable ). Sistem pemecahan bertahap menjadi bagian-bagian kecil yang langsung dirilis secara bertahap.
+
+🛠️ Alat dan Bahan
+Alat Diagram: Draw.io, Lucidchart, atau Astah (digunakan untuk pemetaan alur dan tahapan model SDLC yang dipilih).
+
+Kontrol Versi: GitHub/GitLab (digunakan untuk kolaborasi tim dan pelacakan perkembangan proyek).
+
+💡 Panduan Studi Kasus
+Ketika suatu tim bingung menentukan metode karena kebutuhan sistem sering berubah-ubah , langkah mitigasinya adalah:
+
+Analisis Karakteristik Kebutuhan: Apakah kebutuhan sudah pasti atau dinamis?
+
+Pilih Model Adaptif: Jika dinamis, model seperti Agile atau Prototype umumnya lebih tepat dibandingkan Waterfall .
+
+Petakan Tahapan: Buat visualisasi diagram tahapan (misal: Planning -> Sprint Planning -> Development -> Testing -> Review -> Deployment untuk Agile) menggunakan alat diagram.
+
+Untuk membantu menentukan model SDLC mana yang paling cocok berdasarkan kondisi proyek, Anda dapat menggunakan simulator interaktif di bawah ini sebagai alat bantu analisis dalam diskusi kelompok.
