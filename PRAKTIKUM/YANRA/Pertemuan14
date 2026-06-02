@@ -1,0 +1,35 @@
+Materi: Presentasi dan Evaluasi Proyek
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu mengkomunikasikan dan menjelaskan hasil akhir proyek perangkat lunak kepada klien atau pemangku kepentingan dengan profesional, serta mampu menyampaikan secara kritis kualitas sistem dan proses pengembangan yang telah dilakukan.
+
+📖 Teori Singkat
+Tahap akhir dari suatu siklus proyek perangkat lunak bukan sekadar memastikan kode dapat berjalan, melainkan juga membuktikan bahwa sistem tersebut bernilai bagi pengguna.
+
+Presentasi dan Demonstrasi (Demo) adalah ujung tombak untuk meyakinkan pemangku kepentingan bahwa solusi yang dibangun benar-benar menyelesaikan masalah. Sementara itu, Evaluasi ( Tinjauan Pasca Proyek ) dilakukan secara internal maupun eksternal untuk mengukur kualitas sistem yang dirilis, mencatat pembelajaran yang didapat), dan menemukan area untuk perbaikan berkelanjutan.
+
+Contoh Permasalahan: 
+Sebuah tim berhasil menyelesaikan proyek tepat waktu dan langsung membubarkan diri tanpa melakukan evaluasi ( post-mortem ). Beberapa minggu kemudian, klien mengeluh karena banyak fitur yang tidak sesuai dengan kesepakatan awal dan desainnya membingungkan pengguna. Karena tidak ada sesi presentasi akhir ( sign-off ) dan evaluasi, tim tersebut harus merombak ulang aplikasi dari awal tanpa dibayar lebih.
+
+🛠️ Bahan dan Alat
+Platform Pembuat Slide: Microsoft PowerPoint, Google Slides, Canva, atau Figma.
+
+Perangkat Keras: Laptop yang berisi aplikasi siap pakai dan koneksi ke proyektor/layar presentasi.
+
+Lingkungan Sistem: Aplikasi kelompok proyek yang sudah berjalan dengan baik (di lingkungan lokal atau yang sudah di- deploy ).
+
+📝 Studi Kasus & Tugas Kelompok
+Sebagai tugas puncak semester ini, kelompok Anda bertindak seolah-olah sebagai sebuah Software House atau vendor IT yang akan menyerahkan produk akhir kepada Klien (Dosen/Audiens).
+
+Langkah demi langkah pengerjaan:
+
+Buat Slide Presentasi: Susun materi presentasi yang ringkas, menarik, dan fokus pada solusi. Slide harus mencakup latar belakang masalah, perancangan singkat (alur/arsitektur), dan kesimpulan.
+
+Lakukan Demo Sistem ( Live Demo ): Peragakan langsung fitur-fitur utama aplikasi di depan kelas. Buktikan bahwa alur ( aliran utama ) dari awal hingga akhir dapat berjalan tanpa kesalahan .
+
+Sesi Evaluasi: Lakukan sesi tanya jawab dan evaluasi proyek berdasarkan tiga pilar utama:
+
+Kesesuaian Kebutuhan: Apakah sistem menjawab masalah di awal?
+
+Kualitas Desain: Apakah UI/UX dan arsitekturnya sudah optimal?
+
+Tim Kerja: Bagaimana kolaborasi anggota kelompok selama satu semester?
