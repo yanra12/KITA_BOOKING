@@ -1,0 +1,37 @@
+Teknik Elisitasi Kebutuhan
+Tujuan Pembelajaran
+Mahasiswa mampu merencanakan dan mengumpulkan data kebutuhan perangkat lunak secara langsung dari klien atau pengguna akhir ( pengguna akhir ) menggunakan teknik tertentu yang tepat.
+
+Teori Singkat
+Elisitasi (Elisitasi) adalah proses interaktif untuk menggali, mengumpulkan, dan menemukan sistem kebutuhan dari para pemangku kepentingan ( pemangku kepentingan ). Proses ini sangat penting untuk memastikan sistem yang dibangun benar-benar menyelesaikan masalah pengguna.
+
+Beberapa teknik elisitasi yang umum digunakan meliputi:
+
+Wawancara ( Wawancara ): Tanya jawab langsung dengan pengguna/klien untuk menggali informasi secara mendalam dan pribadi.
+
+Observasi: Mengamati langsung bagaimana pengguna bekerja sehari-hari untuk memahami proses bisnis dan masalah yang tidak terucapkan.
+
+Kuesioner/Survei: Menyebarkan daftar pertanyaan tertulis kepada banyak responden sekaligus. Sangat efektif untuk sistem dengan basis pengguna yang besar.
+
+Studi Dokumen: Menganalisis dokumen yang sudah ada (seperti bentuk manual, laporan, atau prosedur standar operasi) untuk memahami data apa saja yang dikelola saat ini.
+
+Contoh Permasalahan: 
+Tim pengembang berasumsi dan hanya menebak-nebak fitur apa yang dibutuhkan pengguna tanpa melakukan komunikasi langsung. Akibatnya, aplikasi selesai dibuat tetapi fitur-fiturnya tidak relevan dan tidak menyelesaikan masalah nyata yang dihadapi pengguna di lapangan.
+
+🛠️ Bahan dan Alat
+Pengawasan Platform: Google Form / Microsoft Forms (jika menggunakan teknik kuesioner).
+
+Dokumen Teks: Aplikasi pengolah kata untuk mencatat hasil.
+
+Templat Wawancara: Pedoman atau daftar pertanyaan terstruktur yang disiapkan sebelum berdiskusi dengan klien.
+
+📝 Studi Kasus & Tugas Kelompok
+Dalam sesi ini, Anda akan menyiarkan langsung cara menggali kebutuhan pengguna melalui metode wawancara.
+
+Langkah demi langkah pengerjaan:
+
+Buat Daftar Pertanyaan: Susun minimal 10 pertanyaan terbuka ( terbuka ) yang akan diajukan kepada klien terkait tema proyek Anda.
+
+Simulasi Wawancara ( Role-play ): Melakukan simulasi di mana satu perwakilan kelompok bertindak sebagai System Analyst (pewawancara) dan perwakilan lain (atau kelompok lain) bertindak sebagai Klien.
+
+Ringkas Hasil Elisitasi: Dokumentasikan jawaban dari klien dan buat ringkasan kesimpulan mengenai apa saja yang menjadi kebutuhan utama mereka.
