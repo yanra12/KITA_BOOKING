@@ -1,0 +1,37 @@
+Materi: Analisis Kebutuhan Perangkat Lunak
+ Tujuan Pembelajaran
+Mahasiswa mampu menganalisis dan menggali kebutuhan klien ( klien ) secara akurat, sehingga perangkat lunak yang dibangun dapat benar-benar menyelesaikan masalah dan sesuai dengan ekspektasi pengguna.
+
+ Teori Singkat
+Analisis Kebutuhan adalah tahap paling krusial dalam siklus pengembangan perangkat lunak di mana pengembang memahami apa yang sebenarnya dibutuhkan oleh sistem. Kesalahan pada tahap ini sering kali menjadi penyebab utama kegagalan sebuah proyek.
+
+Tahapan ini bertujuan untuk mengidentifikasi tiga hal utama:
+
+Kebutuhan Fungsional ( Functional Requirement ): Proses, interaksi, atau layanan spesifik yang harus bisa dilakukan oleh sistem.
+
+Contoh: "Sistem harus bisa mencetak laporan penjualan bulanan" atau "Pengguna dapat memulihkan kata sandi melalui email."
+
+Kebutuhan Non-Fungsional ( Non-Fungsional Requirement ): Atribut yang menentukan kualitas sistem, seperti kinerja, keamanan, kinerja, atau kegunaan ( usability ).
+
+Contoh: "Sistem harus dapat memuat halaman dalam waktu maksimal 2 detik" atau "Kata sandi pengguna harus disimpan dalam format terenkripsi."
+
+Batasan Sistem ( System Constraints ): Keterbatasan, regulasi, atau aturan yang harus dipatuhi selama pengembangan.
+
+Contoh: "Aplikasi harus dikembangkan menggunakan bahasa pemrograman Java" atau "Sistem harus mematuhi regulasi privasi data lokal."
+
+Contoh Permasalahan: 
+Sebuah aplikasi selesai dibangun dengan antarmuka yang sangat indah dan teknologi terkini. Namun, aplikasi tersebut akhirnya ditolak dan gagal digunakan oleh klien karena kebutuhan pengguna (alur kerja harian mereka) tidak teridentifikasi dengan baik sejak awal.
+
+🛠️ Bahan dan Alat
+Dokumen Teks: Aplikasi pengolah kata (Microsoft Word, Google Docs) atau editor teks.
+
+Templat SRS: Format rencana Spesifikasi Persyaratan Perangkat Lunak (misalnya menggunakan standar IEEE 830 atau templat sederhana yang disepakati).
+
+📝 Studi Kasus & Tugas Kelompok
+Melanjutkan proyek dari pertemuan sebelumnya, kelompok Anda ditugaskan untuk melakukan analisis kebutuhan sistem. Tahapan kerja berikut:
+
+Identifikasi Stakeholder: Petakan siapa saja pihak yang akan menggunakan, mengelola, atau terdampak oleh sistem yang Anda buat (Misal: Admin, Manajer, Pelanggan).
+
+Susun Daftar Kebutuhan: Diskusikan dan tuliskan daftar lengkap Kebutuhan Fungsional dan Kebutuhan Non-Fungsional dari proyek Anda.
+
+Buat Dokumen SRS: Dokumentasikan hasil identifikasi tersebut secara formal ke dalam sebuah dokumen Spesifikasi Kebutuhan Perangkat Lunak (SRS).
