@@ -1,0 +1,53 @@
+# Pengenalan Rekayasa Perangkat Lunak (RPL) dan Proyek
+
+## 🎯 Tujuan Pembelajaran
+
+Memahami konsep dasar Rekayasa Perangkat Lunak (RPL) dan menentukan ruang lingkup proyek perangkat lunak yang akan dikerjakan selama satu semester.
+
+## 📖 Teori Singkat
+
+**Rekayasa Perangkat Lunak (RPL)** adalah disiplin ilmu yang membahas pendekatan sistematis, terstruktur, dan terukur dalam pengembangan, pengoperasian, dan pemeliharaan perangkat lunak.
+
+Fokus utama dari penerapan RPL meliputi:
+
+* **Kualitas:** Memastikan perangkat lunak berfungsi dengan baik dan bebas dari *bug* kritis.
+* **Efisiensi:** Mengoptimalkan penggunaan sumber daya (waktu, biaya, tenaga).
+* **Keberlanjutan:** Memudahkan proses pemeliharaan dan pembaruan sistem di masa depan.
+
+> **Contoh Permasalahan:** > Sebuah organisasi mengembangkan aplikasi tanpa dokumentasi dan perencanaan yang baik. Akibatnya, proyek sering mengalami kegagalan, pembengkakan biaya, dan hasil akhir yang tidak memenuhi kebutuhan pengguna yang sebenarnya. Di sinilah penerapan prinsip RPL menjadi sangat penting.
+
+---
+
+## 🛠️ Bahan dan Alat
+
+Pastikan Anda telah menyiapkan alat dan bahan berikut sebelum memulai proyek:
+
+* Modul RPL
+* Laptop / Komputer
+* Text Editor / IDE (Visual Studio Code, IntelliJ, dsb.)
+* Git dan Akun GitHub/GitLab
+* Web Browser modern
+
+## 📝 Studi Kasus & Tugas Kelompok
+
+Sebagai langkah awal proyek semester, setiap kelompok diwajibkan untuk mendefinisikan proyek yang akan dikerjakan.
+
+**Langkah-langkah pengerjaan:**
+
+1. **Tentukan Tema Proyek:** Diskusikan bersama tim mengenai tema perangkat lunak yang akan dibangun.
+2. **Buat Deskripsi Singkat:** * **Nama Sistem:** *(Contoh: Sistem Informasi Manajemen Perpustakaan)*
+* **Tujuan Sistem:** *(Contoh: Memudahkan pendataan peminjaman dan pengembalian buku)*
+* **Target Pengguna:** *(Contoh: Siswa dan Pustakawan)*
+
+
+3. **Setup Repository:** Buat dan konfigurasikan *repository* Git (GitHub/GitLab) untuk proyek tim Anda.
+
+## 📊 Aspek Penilaian
+
+Berikut adalah rubrik penilaian untuk tugas awal ini:
+
+| Aspek Penilaian | 4 (Sangat Baik) | 3 (Baik) | 2 (Kurang) | 1 (Tidak Memadai) |
+| --- | --- | --- | --- | --- |
+| **Pemahaman Konsep RPL** | Menjelaskan konsep dengan sangat baik | Menjelaskan dengan baik | Penjelasan kurang tepat | Tidak memahami konsep |
+| **Deskripsi Proyek** | Jelas, realistis, dan relevan | Cukup jelas | Kurang jelas | Tidak sesuai |
+| **Pembentukan Tim & Repo** | Repo dibuat sangat rapi dan sesuai standar | Repo ada namun struktur kurang rapi | Repo kurang lengkap | Tidak membuat repo |
