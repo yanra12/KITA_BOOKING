@@ -1,0 +1,43 @@
+Materi: Dokumentasi dan Deployment Perangkat Lunak
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu mendokumentasikan seluruh rangkaian proses, analisis perancangan, dan implementasi sistem secara komprehensif, serta memahami, merancang, dan menguraikan rencana peluncuran ( deployment ) serta sistem perawatan yang dibangun.
+
+📖 Teori Singkat
+Dua tahap akhir namun tidak kalah krusial dalam siklus hidup pengembangan perangkat lunak (SDLC) adalah:
+
+Dokumentasi Perangkat Lunak: 
+Dokumentasi adalah nyawa dari pemeliharaan ( maintenance ) jangka panjang. Tanpa dokumentasi yang baik, sistem akan menjadi "kotak hitam" yang tidak mungkin dikembangkan ulang. Dokumentasi umum terbagi menjadi:
+
+Dokumentasi Teknis (Sistem): Ditujukan untuk pengembang lain (struktur kode, arsitektur, skema DB, dokumentasi API, dan berkas README.md).
+
+Dokumentasi Pengguna ( User Manual ): Ditujukan untuk pengguna akhir yang berisi panduan cara mengoperasikan fitur-fitur aplikasi.
+
+Deployment (Penerapan): 
+Proses pemindahan dan konfigurasi aplikasi dari lingkungan pengembang lokal ( development environment ) ke server produksi ( production environment ) agar dapat diakses oleh publik atau klien melalui jaringan internet. Dalam UML, arsitektur fisik ini dimodelkan menggunakan Deployment Diagram untuk menggambarkan bagaimana komponen perangkat lunak didistribusikan ke dalam perangkat keras ( hardware node ).
+
+Contoh Permasalahan: 
+Sebuah tim yang berhasil meluncurkan sistem informasi rumah sakit. Setahun kemudian, pihak rumah sakit meminta pembaruan fitur. Namun, karena tim pengembang awal tidak meninggalkan dokumen panduan instalasi, skema arsitektur server, ataupun catatan perubahan konfigurasi data dasar, tim baru kesulitan melakukan pembaruan dan sistem sering mengalami crash saat mencoba dipindahkan ke server baru.
+
+🛠️ Bahan dan Alat
+Dokumentasi Teks: Markdown (file README.mdlangsung di GitHub) atau Microsoft Word / Google Docs.
+
+Alat Diagram: Gambar. io, StarUML, atau Astah UML (untuk membuat Deployment Diagram ).
+
+Platform Hosting (Opsional / Simulasi): GitHub Pages, Vercel, Netlify (untuk frontend ), Render, atau Railway (untuk backend & basis data).
+
+📝 Studi Kasus & Tugas Kelompok
+Sebagai tahap akhir dari proyek satu semester ini, lakukan dokumentasi menyeluruh dan perencanaan perilisan sistem kelompok Anda.
+
+Langkah demi langkah pengerjaan:
+
+Buat Dokumentasi Pengguna & Teknis: Lengkapi berkas README.mdutama di repositori GitHub proyek Anda. Dokumentasi wajib memuat:
+
+Deskripsi singkat sistem dan fitur utama.
+
+Prasyarat sistem (prasyarat) seperti versi bahasa pemrograman/database yang digunakan.
+
+Panduan instalasi dan menjalankan aplikasi di komputer lokal (langkah demi langkah).
+
+Diagram Penyebaran Rancang:Buatlah satuDiagram PenyebaranUML yang menggambarkan arsitektur fisik penempatan sistem Anda (Misalnya komponen browser klien,server web/aplikasi,dan data berbasis server beserta protokol komunikasinya seperti HTTP/HTTPS).
+
+Simulasikan Rencana Perawatan ( Maintenance Plan ):Tuliskan narasi singkat mengenai rencana berkala untuk menjaga sistem (seperti jadwalcadangandata dasar dan penangananserangga).
