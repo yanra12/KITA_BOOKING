@@ -1,0 +1,39 @@
+Materi: Perancangan Arsitektur Perangkat Lunak
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu merancang, menentukan, dan menjelaskan arsitektur perangkat lunak secara keseluruhan untuk sistem yang akan dikembangkan.
+
+📖 Teori Singkat
+Arsitektur Perangkat Lunak adalah fondasi teknis dari sebuah aplikasi yang menggambarkan struktur sistem secara keseluruhan, komponen-komponen penyusunnya, dan bagaimana setiap komponen tersebut saling berinteraksi.
+
+Perencanaan arsitektur yang baik sangat krusial untuk memastikan sistem dapat diskalakan ( scalable ), mudah dipelihara ( maintainable ), dan aman. Beberapa pola arsitektur ( arsitektur pola ) yang umum digunakan meliputi:
+
+Client-Server: Memisahkan penyedia sumber daya (Server) dan peminta layanan/antarmuka (Client).
+
+MVC (Model-View-Controller): Memisahkan representasi antarmuka (View), pemrosesan data/logika bisnis (Model), dan jembatan pengontrol alur (Controller).
+
+Arsitektur Berlapis: Menyusun sistem dalam lapisan-lapisan logistik (misalnya: Presentation Layer, Business Logic Layer, Data Access Layer ).
+
+Microservices: Memecah satu aplikasi besar yang monolitik menjadi kumpulan layanan kecil yang berjalan secara independen.
+
+Contoh Permasalahan: 
+Sebuah tim pengembang merasa frustrasi karena aplikasi yang mereka buat sangat sulit untuk dikembangkan lebih lanjut. Setiap penambahan fitur baru selalu merusak fitur lama. Hal ini terjadi karena sistem dibangun dengan struktur kode yang tumpang tindih ( kode spageti ) tanpa adanya pedoman arsitektur yang jelas sejak awal.
+
+🛠️ Bahan dan Alat
+Gunakan UML Tool atau perangkat lunak pemodelan diagram untuk merancang arsitektur tingkat tinggi, seperti:
+
+Draw.io / Diagrams.net
+
+Lucidchart
+
+Microsoft Visio
+
+Figma (dengan diagram plugin /arsitektur)
+
+📝 Studi Kasus & Tugas Kelompok
+Pada tahap ini, kelompok Anda bertugas menentukan fondasi teknis dari proyek perangkat lunak yang sedang dikerjakan.
+
+Langkah demi langkah pengerjaan:
+
+Tentukan Arsitektur Sistem: Diskusikan dan pilih pola arsitektur yang paling sesuai untuk proyek Anda (misalnya menggunakan MVC atau Client-Server ). Tuliskan alasan teknis mengapa pola tersebut dipilih.
+
+Buat Diagram Arsitektur: Visualisasikan arsitektur sistem tersebut ke dalam sebuah diagram tingkat tinggi (high -level diagram ) yang dengan jelas menunjukkan komponen-komponen utama (seperti Database , Backend , Frontend ) beserta alur komunikasi datanya.
