@@ -1,0 +1,41 @@
+Materi: Pengujian Perangkat Lunak (Software Testing)
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu merencanakan, menyusun skenario, dan melakukan pengujian ( testing ) terhadap program, sistem, dan fungsi yang telah dibangun untuk memastikan kualitas perangkat lunak bebas dari kesalahan ( bug ).
+
+📖 Teori Singkat
+Pengujian Perangkat Lunak adalah proses mengeksekusi sistem atau komponen aplikasi dengan tujuan menemukan kesalahan, celah keamanan, atau ketidaksesuaian antara hasil aktual dan kebutuhan yang telah ditentukan sebelumnya. Pengujian dilakukan sebelum perangkat lunak diserahkan kepada pengguna akhir ( pengguna akhir ).
+
+Beberapa jenis pengujian umum yang digunakan meliputi:
+
+Black-box Testing: Pengujian yang fokus pada fungsionalitas sistem tanpa harus mengetahui struktur kode internal atau implementasi programnya. Penguji hanya memberikan input dan memeriksa apakah output-nya sudah sesuai.
+
+White-box Testing: Pengujian yang fokus pada struktur internal, alur logika, dan jalannya kode program. Penguji harus memahami kode untuk memastikan semua jalur ( path ) logika telah dieksekusi dengan benar.
+
+Pengujian Unit: Pengujian tingkat dasar yang dilakukan terhadap komponen atau unit terkecil dari kode program (seperti fungsi atau metode tertentu) untuk memastikan bagian tersebut bekerja secara terlindungi.
+
+Contoh Permasalahan: 
+Sebuah aplikasi sistem informasi pendaftaran siswa baru langsung diluncurkan tanpa melalui tahap pengujian yang terstruktur. Ketika ribuan pengguna mencoba mengunggah dokumen pendaftaran secara bersamaan, aplikasi mengalami kesalahan massal karena fungsi validasi berkas tidak dapat menangani format tertentu. Hal ini merusak peninggalan instansi dan mengganggu operasional.
+
+🛠️ Bahan dan Alat
+Test Case Template: Dokumen atau lembar kerja (seperti Google Sheets / Excel) yang digunakan untuk mencatat skenario pengujian, langkah-langkah, hasil yang diharapkan, dan hasil aktual.
+
+Alat Pengujian (Opsional): Framework bawaan bahasa pemrograman untuk pengujian unit (misalnya: PHPUnit untuk Laravel, JUnit untuk Java, atau PyTest untuk Python).
+
+📝 Studi Kasus & Tugas Kelompok
+Ujilah kualitas fitur dari proyek perangkat lunak yang telah kelompok Anda bangun pada pertemuan sebelumnya.
+
+Langkah demi langkah pengerjaan:
+
+Buat Test Case: Susun dokumen Test Case untuk minimal 2 fitur utama yang telah diimplementasikan kemarin. Setiap soal ujian wajib memuat:
+
+ID Test & Nama Fitur
+
+Skenario Pengujian (Contoh: Menguji login dengan password salah)
+
+Langkah-langkah Pengujian ( Test Steps )
+
+Data Masukan ( Data Uji )
+
+Hasil yang diharapkan ( Hasil yang diharapkan )
+
+Lakukan Pengujian: Eksekusi pengujian tersebut secara langsung pada aplikasi Anda menggunakan metode Black-box Testing . Catat hasil aktualnya ( Actual Result ) dan penentuan statusnya ( Status : PASS / FAIL ).
