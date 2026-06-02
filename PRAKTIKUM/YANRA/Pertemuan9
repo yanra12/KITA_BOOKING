@@ -1,0 +1,37 @@
+Materi: Peranan Basis Data
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu memahami konsep perancangan dasar data relasional serta mampu merancang struktur data yang efisien, konsisten, dan mendukung penuh seluruh fungsi sistem yang akan diimplementasikan.
+
+📖 Teori Singkat
+Perancangan Basis Data adalah proses menentukan struktur data, hubungan antar data, dan batasan data yang diperlukan untuk mendukung operasi sebuah organisasi atau sistem aplikasi. Peranan yang buruk dapat menyebabkan pemborosan ruang penyimpanan, penurunan kinerja, dan kekacauan informasi.
+
+Dua instrumen utama yang digunakan untuk menghasilkan basis data yang optimal adalah:
+
+ERD (Entity Relationship Diagram): Diagram yang digunakan untuk memodelkan struktur data dan hubungan ( relationship ) antar entitas (objek data) di dalam sistem.
+
+Normalisasi: Proses analisis dan pengorganisasian data ke dalam tabel-tabel untuk menghilangkan redundansi (duplikasi data) dan mencegah terjadinya anomali data ( insert, update, delete anomaly ).
+
+Selain pemodelan data murni (ERD), dalam pendekatan berorientasi objek kita juga menggunakan Class Diagram untuk bagaimana pemetaan struktur data tersebut bertransformasi menjadi objek di dalam kode program, lengkap dengan atribut dan fungsi ( metode ) sekundernya.
+
+Contoh Permasalahan: 
+Sebuah sistem penjualan mencatat nama dan alamat pelanggan secara berulang-ulang di setiap baris transaksi nota. Ketika pelanggan mengubah alamat, petugas hanya mengubah data di nota terbaru. Akibatnya, data alamat pelanggan yang sama menjadi berbeda-beda dan tidak konsisten di dalam sistem.
+
+🛠️ Bahan dan Alat
+Gunakan kombinasi perangkat lunak berikut untuk merancang dan menguji data dasar Anda:
+
+Sistem Manajemen Basis Data (DBMS): MySQL, MariaDB, atau PostgreSQL.
+
+DB Designer Tool: phpMyAdmin, MySQL Workbench, DBeaver, atau Draw.io (untuk skema konseptual).
+
+UML Tools: StarUML, Astah, atau Visual Paradigm (untuk pembuatan Class Diagram).
+
+📝 Studi Kasus & Tugas Kelompok
+Berdasarkan analisis kebutuhan dan fungsionalitas sistem yang telah kelompok Anda susun pada pertemuan sebelumnya, buatlah rencana berdasarkan datanya.
+
+Langkah demi langkah pengerjaan:
+
+Buat ERD: identifikasi apa saja yang ada, penentuan atributnya (termasuk Primary Key ), serta penentuan tipe relasi dan kardinalitasnya (1:1, 1:N, atau N:M).
+
+Spesifikasi Tabel & Atribut: Jabarkan hasil ERD yang telah dinormalisasi ke dalam bentuk tabel fisik lengkap dengan tipe datanya (misal: INT, VARCHAR, DATE ), serta tandai Foreign Key (FK) yang menghubungkan antar tabel.
+
+Buatkan Class Diagram: Transformasikan struktur tabel tersebut menjadi Class Diagram yang sesuai dengan arsitektur kode pemrograman proyek Anda.
