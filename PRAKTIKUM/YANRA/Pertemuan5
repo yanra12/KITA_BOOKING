@@ -1,0 +1,44 @@
+Materi: Diagram Kasus Penggunaan dan Deskripsi Kasus Penggunaan
+ Tujuan Pembelajaran
+Mahasiswa dapat memodelkan peran (aktor) dan interaksi yang terjadi pada sistem yang akan dikembangkan untuk memberikan gambaran esensi yang jelas.
+
+ Teori Singkat
+Use Case Diagram adalah diagram dalam UML ( Unified Modeling Language ) yang digunakan untuk memodelkan interaksi antara pengguna (disebut Aktor ) dan sistem. Diagram ini tidak menjelaskan secara detail bagaimana sistem beroperasi di belakang layar, melainkan fokus pada apa yang bisa dilakukan oleh sistem tersebut dari sudut pandang pengguna.
+
+Komponen utama dalam Use Case Diagram:
+
+Aktor: Mewakili pengguna, entitas, atau sistem lain yang berinteraksi dengan sistem.
+
+Use Case: Fitur atau fungsionalitas yang disediakan oleh sistem (biasanya ditulis dengan kata kerja, misal: "Login", "Mengelola Data Buku").
+
+Relasi: Garis yang menghubungkan Aktor dengan Use Case, atau antar Use Case (seperti Include dan Extend ).
+
+Use Case Description (Deskripsi Use Case) adalah dokumen tekstual yang menjelaskan secara rinci alur atau skenario dari sebuah Use Case di dalam diagram, meliputi prasyarat, alur kerja normal ( aliran utama ), dan alur alternatif.
+
+Contoh Permasalahan: > Sebuah aplikasi telah selesai dibuat, namun pihak manajemen dan developer baru kesulitan memahami sistem tersebut karena tidak ada dokumentasi interaksi penggunanya. Akibatnya, mereka tidak mengetahuinya secara pasti fitur apa saja yang dapat diakses oleh pengguna biasa dibandingkan dengan administrator.
+
+🛠️ Bahan dan Alat
+Gunakan salah satu perangkat lunak pemodelan diagram berikut:
+
+Draw.io / Diagrams.net (Berbasis Web)
+
+StarUML
+
+Komunitas Astah / Astah UML
+
+📝 Studi Kasus & Tugas Kelompok
+Melanjutkan analisis kebutuhan dari pertemuan sebelumnya, kelompok Anda ditugaskan untuk memodelkan fungsionalitas sistem.
+
+Langkah demi langkah pengerjaan:
+
+Buat Use Case Diagram: Petakan semua aktor yang terlibat dan use case (fitur) yang ada pada proyek perangkat lunak Anda. Pastikan penggunaan hubungan tepat.
+
+Buat Use Case Description: Pilih 3 Use Case paling utama dari diagram Anda, kemudian buatlah deskripsi rincinya. Deskripsi harus memuat:
+
+Nama Use Case & Aktor
+
+Pre-condition (Kondisi awal sebelum proses dimulai)
+
+Aliran Utama (Skenario utama yang sukses)
+
+Post-condition (Kondisi akhir setelah proses selesai)
