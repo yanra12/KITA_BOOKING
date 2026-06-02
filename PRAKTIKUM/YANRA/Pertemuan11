@@ -1,0 +1,40 @@
+Materi: Version Control dan Kolaborasi Tim
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu mengelola riwayat perubahan kode program secara teratur serta berkolaborasi dalam tim tanpa merusak kode satu sama lain menggunakan sistem kontrol versi ( Version Control System ) .
+
+📖 Teori Singkat
+Version Control System (VCS) adalah sistem yang mencatat setiap perubahan pada berkas kode dari waktu ke waktu sehingga Anda dapat melihat riwayat pengembangan atau mengembalikan berkas ke kondisi sebelumnya jika terjadi kesalahan. Jenis VCS yang paling populer digunakan di industri saat ini adalah Git yang bersifat terdistribusi.
+
+Dalam tim kolaborasi, Git memungkinkan setiap anggota bekerja di jalur pengembangannya sendiri yang disebut Cabang (percabangan). Hal ini sangat penting untuk mengisolasi fitur baru yang sedang dibuat agar tidak mengganggu jalur utama kode yang sudah stabil ( Cabang Utama/Master ).
+
+Beberapa perintah dasar penting dalam Git meliputi:
+
+git branch: Membuat atau melihat daftar percabangan.
+
+git commit: menyimpan riwayat perubahan kode lokal beserta pesan penjelasannya.
+
+git push: Mengirimkan commit lokal ke repositori jarak jauh ( repositori jarak jauh ) seperti GitHub.
+
+git merge: Menggabungkan perubahan dari satu cabang ke cabang lainnya.
+
+Contoh Permasalahan: 
+Dua programmer dalam satu tim mengerjakan berkas yang sama secara bersamaan menggunakan metode salin-tempel manual (misal lewat kilat duga/flashdisk atau Google Drive). Saat mereka menyatukan kode, pekerjaan programmer pertama tidak sengaja tertimpa dan hilang oleh kode programmer kedua.
+Kejadian ini memicu kebingungan dan melahirkan banyak konflik kode ( merge konflik ).
+
+🛠️ Bahan dan Alat
+Sistem Kontrol Versi: Git (terpasang di laptop masing-masing).
+
+Platform Repositori Jarak Jauh: GitHub atau GitLab (untuk media kolaborasi online ).
+
+Aplikasi Pendukung: Git Bash (terminal), VS Code Built-in Git, atau GitHub Desktop.
+
+📝 Studi Kasus & Tugas Kelompok
+Praktikkan alur kerja kolaborasi Git ( Git Workflow ) bersama anggota kelompok Anda.
+
+Langkah demi langkah pengerjaan:
+
+Buat Cabang Baru: Setiap anggota kelompok harus membuat cabang baru dari komputer lokalnya dengan format nama fitur yang dikerjakan (contoh: git checkout -b fitur-login).
+
+Lakukan Commit: Lakukan perubahan kode kecil (misalnya menambahkan komentar atau memperbarui baris kode dari tugas sebelumnya), lalu simpan riwayatnya (contoh: git commit -m "feat: menambah validasi form login").
+
+Lakukan Penggabungan & Selesaikan Konflik: Gabungkan fitur cabang tersebut kembali ke cabang utama ( main). Jika terjadi konflik penggabungan (bentrokan kode), diskusikan dengan waktu untuk menentukan baris kode mana yang akan berkelanjutan, lalu selesaikan konfliknya.
