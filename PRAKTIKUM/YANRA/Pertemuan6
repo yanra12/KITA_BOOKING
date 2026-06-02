@@ -1,0 +1,43 @@
+Materi: Diagram Aktivitas dan Proses Bisnis
+ Tujuan Pembelajaran
+Mahasiswa dapat memodelkan dan menggambarkan alur proses bisnis serta urutan kegiatan operasional yang berhubungan dengan sistem yang akan dikembangkan secara logistik dan terstruktur.
+
+ Teori Singkat
+Activity Diagram adalah salah satu diagram dalam UML ( Unified Modeling Language ) yang dikhususkan untuk menggambarkan alur aktivitas, proses bisnis, atau langkah-langkah prosedural dalam sebuah sistem.
+
+Diagram ini sangat mirip dengan flowchart (diagram alur), namun lebih canggih karena mendukung pemodelan perilaku paralel ( concurrent ) dan percabangan yang kompleks.
+
+Komponen utama yang sering digunakan meliputi:
+
+Node Awal: Titik awal dimulainya aktivitas (simbol lingkaran hitam).
+
+Aktivitas / Tindakan: Langkah atau pekerjaan yang dilakukan (simbol persegi panjang dengan sudut membulat).
+
+Node Keputusan: Titik percabangan kondisi (simbol belah ketupat).
+
+Fork / Join: Digunakan untuk memecah alur menjadi beberapa aktivitas paralel (Fork) atau menggabungkannya kembali (Join) (simbol garis tebal).
+
+Node Akhir: Titik akhir dari keseluruhan aktivitas (simbol lingkaran hitam bergaris tepi).
+
+Contoh Permasalahan: 
+Sebuah aplikasi toko online telah dirilis, tetapi pengguna sering mengeluh karena alur pembayarannya ( checkout ) terasa tidak logis, berbelit-belit, dan membingungkan. Hal ini terjadi karena tim pengembang langsung melakukan coding tanpa memetakan alur proses bisnisnya secara visual terlebih dahulu.
+
+🛠️ Bahan dan Alat
+Gunakan UML Tool atau perangkat lunak pemodelan diagram seperti:
+
+Draw.io / Diagrams.net
+
+StarUML
+
+Komunitas Astah / Astah UML
+
+Lucidchart
+
+📝 Studi Kasus & Tugas Kelompok
+Melanjutkan tahapan perancangan sistem, tugas Anda sekarang adalah memvisualisasikan alur kerja dari fitur yang sudah Anda buat pada tahap Use Case .
+
+Langkah demi langkah pengerjaan:
+
+Pilih Proses Utama: Pilih minimal 1 proses bisnis paling utama atau paling krusial dari sistem yang kelompok Anda kembangkan (Misalnya: Proses Peminjaman Buku , Proses Checkout Barang , atau Proses Pendaftaran Pasien ).
+
+Buat Activity Diagram: Gambarkan alur kerja dari proses tersebut menggunakan komponen Activity Diagram yang tepat, mulai dari kondisi awal pengguna berinteraksi hingga proses tersebut selesai ( finish ).
