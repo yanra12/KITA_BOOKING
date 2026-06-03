@@ -1,0 +1,33 @@
+Materi: Implementasi Perangkat Lunak (Coding)
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu menerjemahkan hasil perancangan sistem (arsitektur, basis data, dan UI/UX) ke dalam baris kode program ( coding ) secara terstruktur, fungsional, dan sesuai dengan spesifikasi yang telah dibuat.
+
+📖 Teori Singkat
+Implementasi adalah tahapan dalam siklus pengembangan perangkat lunak (SDLC) di mana desain dan rencana logistik diubah menjadi perangkat lunak yang nyata dan dapat dieksekusi oleh mesin.
+
+Pada tahap ini, fokus pengembang tidak hanya sekedar membuat sistem yang "bisa berjalan", tetapi juga menulis kode yang bersih ( Clean Code ) . Kode yang baik harus mematuhi standar arsitektur yang disepakati (misalnya MVC) dan memiliki struktur manajemen folder yang rapi agar memudahkan tim kolaborasi dan pemeliharaan di masa depan.
+
+Contoh Permasalahan: 
+Sebuah aplikasi berhasil dijalankan, tetapi kode program ditulis secara berantakan, tanpa indentasi, tidak ada komentar, dan mencampur semua logika tampilan (UI) dengan logika basis data ke dalam satu fail besar ( spaghetti code ). Akibatnya, ketika terjadi bug atau ada anggota tim baru yang bergabung, kode tersebut sangat sulit dibaca dan dikembangkan lebih lanjut.
+
+🛠️ Bahan dan Alat
+IDE (Integrated Development Environment) / Editor Teks: Visual Studio Code, IntelliJ IDEA, PyCharm, atau Sublime Text.
+
+Framework (Opsional namun direkomendasikan): * PHP: Laravel, CodeIgniter
+
+Java: Spring Boot
+
+Python: Django, FastAPI
+
+JavaScript: Express.js, React, Vue
+
+Sistem Kontrol Versi: Git & GitHub/GitLab (untuk kolaborasi dan pelacakan versi kode).
+
+📝 Studi Kasus & Tugas Kelompok
+Tiba saatnya untuk mengeksekusi rencana yang telah kelompok Anda buat ke dalam bentuk program nyata.
+
+Langkah demi langkah pengerjaan:
+
+Implementasi Fitur Utama: Tulis kode program untuk mewujudkan minimal 2 fitur utama dari Use Case yang telah Anda definisikan sebelumnya (Misalnya: Fitur Autentikasi/Login dan Fitur Tambah/Lihat Data Transaksi ).
+
+Terapkan Struktur Folder: Susun file dan struktur folder proyek Anda dengan rapi sesuai dengan pola arsitektur yang dipilih (Misal: memisahkan folder controllers , models, views, dan routesjika menggunakan MVC).
