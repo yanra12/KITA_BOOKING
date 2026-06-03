@@ -1,0 +1,31 @@
+Materi: Peranan antarmuka (UI/UX)
+🎯 Tujuan Pembelajaran
+Mahasiswa mampu merancang, menggambarkan, dan mengimplementasikan antarmuka visual ( User Interface ) serta alur navigasi ( User Experience ) yang inovatif untuk memberikan pengalaman penggunaan yang optimal pada sistem yang akan dikembangkan.
+
+📖 Teori Singkat
+UI (User Interface) dan UX (User Experience) adalah dua hal yang berbeda namun saling melengkapi dalam pengembangan perangkat lunak. Fokus utama dari keduanya adalah kenyamanan dan kemudahan pengguna saat berinteraksi dengan sistem.
+
+Pengalaman Pengguna (UX): Berkaitan dengan bagaimana perasaan pengguna saat menggunakan sistem. Fokus pada alur kerja, struktur navigasi, dan kemudahan pengguna dalam mencapai tujuan (solutif dan logistik).
+
+User Interface (UI): Berkaitan dengan elemen visual dari sistem yang menjembatani interaksi pengguna, seperti warna, tipografi, bentuk tombol, dan tata letak ( layout ).
+
+Contoh Permasalahan: 
+Sebuah tim berhasil membangun aplikasi e-commerce dengan fitur yang sangat canggih dan backend yang stabil. Namun, pengguna sering membatalkan transaksi karena tombol checkout terlalu kecil, warnanya tidak terlihat, dan mereka harus melewati terlalu banyak halaman untuk membayar. (Aplikasi sangat fungsional secara teknis, tetapi sulit dan menyebalkan untuk digunakan).
+
+🛠️ Bahan dan Alat
+Gunakan salah satu perangkat lunak pembuat wireframe atau prototyping berikut:
+
+Figma (Berbasis web , gratis, sangat direkomendasikan untuk tim kolaborasi)
+
+Balsamiq Mockups (Sangat bagus untuk membuat wireframe kasar bergaya sketsa)
+
+Proyek Pensil (Aplikasi desktop sumber terbuka )
+
+📝 Studi Kasus & Tugas Kelompok
+Setelah memahami kebutuhan dan alur sistem pada pertemuan sebelumnya, langkah selanjutnya adalah menerjemahkannya ke dalam bentuk rencana layar (antarmuka).
+
+Langkah demi langkah pengerjaan:
+
+Buat Wireframe: Rancang kerangka visual ( wireframe / mockup ) untuk aplikasi grup Anda. Buat minimal 5 halaman/layar utama (Misalnya: Halaman Login , Dashboard/Home , Detail Item , Keranjang/Form , dan Profil ).
+
+menjelaskan Alur Navigasi: Membuat dokumentasi singkat yang menjelaskan bagaimana alur perpindahan dari satu halaman ke halaman lainnya. Menjelaskan aksi apa yang harus dilakukan pengguna (misal: klik tombol X) untuk pindah ke halaman Y.
